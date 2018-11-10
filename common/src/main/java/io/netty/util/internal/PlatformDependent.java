@@ -253,7 +253,8 @@ public final class PlatformDependent {
      * direct memory access.
      */
     public static boolean hasUnsafe() {
-        return UNSAFE_UNAVAILABILITY_CAUSE == null;
+        return false;
+       // return UNSAFE_UNAVAILABILITY_CAUSE == null;
     }
 
     /**
